@@ -15,6 +15,10 @@
 import aim.random
 
 
-def test_random_module_doc():
+def test_random_module_name() -> None:
+  assert aim.random.__name__ == 'aim.random'
+
+
+def test_random_module_doc() -> None:
   assert aim.random.__doc__ == ('Random Number Generator using the Mersenne '
                                 'Twister pseudo-random generator algorithm.')

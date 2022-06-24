@@ -15,5 +15,9 @@
 import aim
 
 
-def test_aim_module_doc():
+def test_aim_module_name() -> None:
+  assert aim.__name__ == 'aim'
+
+
+def test_aim_module_doc() -> None:
   assert aim.__doc__ == 'Artificial Intelligence Mathematics'
