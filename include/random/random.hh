@@ -15,6 +15,9 @@
 #ifndef AIM_INCLUDE_RANDOM_RANDOM_HH_
 #define AIM_INCLUDE_RANDOM_RANDOM_HH_
 
+// The Mersenne Twister is a pseudorandom number generator (PRNG) algorithm
+// developed in 1997 by Makoto Matsumoto and Takuji Nishimura.
+
 #include <cstdint>
 #include <random>
 

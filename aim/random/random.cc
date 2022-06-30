@@ -16,6 +16,9 @@
 
 using aim::random::BiggestInt;
 
+// The Mersenne Twister is a pseudorandom number generator (PRNG) algorithm
+// developed in 1997 by Makoto Matsumoto and Takuji Nishimura.
+
 aim::random::Random::Random()
     : generator_(std::random_device()()), rfrom_(kMinInt), rto_(kMaxInt) {}
 
